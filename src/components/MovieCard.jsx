@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card"
 import { useState } from 'react';
 const IMG_API = "https://image.tmdb.org/t/p/w1280";
 
-const PlayerCard = ({ title, poster_path, overview, vote_average, id }) => {
+const MovieCard = ({ title, poster_path, overview, vote_average, id }) => {
     const [showImage, setShowImage] = useState(true);
     const handleClick = () => setShowImage(!showImage);
     const getVoteClass = (vote) => {
@@ -33,4 +33,4 @@ const PlayerCard = ({ title, poster_path, overview, vote_average, id }) => {
     )
 }
 
-export default PlayerCard
+export default MovieCard
