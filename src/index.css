@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#f4d590;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* movie Card/Componnt Styling */
+.img-head{
+  width:250px;
+  height:250px;
+}
+
+.card-overview {
+  font-size:13px;
+}
+.card-container {
+  background-image: url("https://images.unsplash.com/photo-1581905764498-f1b60bae941a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
+  min-width: 300px;
+  min-height: 432px;
+}
+
+
+.player-card {
+  height:450px;
+  max-width:280px;
+  min-width:230px;
+}
+
+.player-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-card:hover .player-logo{
+  transform:scale(0.95);
+}
+
+.player-logo {
+  height: 400px;
+  transition: scale(0.95);
+  object-fit:cover;
+}
+
+.tag {
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-weight: bold;
+  width: 3rem;
+  text-align: center;
+}
+
+.tag.green {
+  background-color: #1b5e20;
+}
+
+.tag.orange {
+  background-color: #f57f17;
+}
+
+.tag.red {
+  background-color: #7f0000;
+}
