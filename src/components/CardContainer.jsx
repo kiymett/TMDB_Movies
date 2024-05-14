@@ -26,7 +26,7 @@ const CardContainer = () => {
         }
     }
 
-    // Wenn die Seite erst augeladen wird, nimm die Daten von API
+    // Wenn die Seite erst aufgeladen wird, wird die Daten von FEATURED_API abgerufen
 
     useEffect(() => {
         getMovies(FEATURED_API)
