@@ -14,7 +14,7 @@ const CardContainer = () => {
     // console.log(API_KEY)
     const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`
 
-    // Wenn search mache,  sollte die Daten von der URL, die ich hier als Parametre eingebe, sollte gemäß diese URL die Daten abgerufen werden.
+    // Wenn ich search mache, sollte die Daten von der URL, die ich hier als Parameter eingebe, sollte gemäß dieser URL die Daten abgerufen werden.
 
     const getMovies = async (url) => {
         try {
